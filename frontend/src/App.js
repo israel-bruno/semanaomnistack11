@@ -1,10 +1,14 @@
 import React from 'react';
 
+import './global.css';
+
+import Routes from './routes';
+
 
 function App() {
   return (
-   <h1>Alo alo galerinha do mal</h1>
-  )
-};
+      <Routes />
+   );
+}
 
 export default App;
